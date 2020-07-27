@@ -6,6 +6,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
   margin: 0;
   padding: 0;
 }
@@ -120,7 +121,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 30px 0;
+  padding: 25px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -161,6 +162,8 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 160px;
+  height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -220,6 +223,7 @@ h6 {
 
 #intro .carousel-content {
   text-align: center;
+  padding-top: 30px;
 }
 
 #intro h2 {
@@ -233,6 +237,7 @@ h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 20px;
 }
 
 #intro .carousel-fade {
@@ -368,7 +373,7 @@ h6 {
 #nav-menu-container {
   float: right;
   margin-right: 100px;
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 /* Nav Meu Styling */
@@ -601,6 +606,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#about .btn-success{
+  padding: 8px 55px;
+}
+
 #about::before {
   content: '';
   position: absolute;
@@ -730,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .skills-content{
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 
@@ -1074,11 +1083,35 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .medical{
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/med.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.img-parx{
+  background: url('../img/intro-carousel/jcare.jpg');
+  background-position: left center;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.med-parx{
+  background-color: #494949;
+  color: #fff;
+  padding: 30px 40px;
+}
+
+.med-parx-txt{
+  border: 1px solid blue;
+  padding: 10px 50px;
+}
+
+.med-parx-txt h2{
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 /*.............Life Insurance.............*/
@@ -1102,7 +1135,37 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+}
 
+.bn-img-parx{
+  background: url('../img/intro-carousel/block-1.jpg');
+  background-position: left center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bn1-img-parx{
+  background: url('../img/intro-carousel/block-2.jpg');
+  background-position: right center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bn-parx{
+  background-color: #494949;
+  color: #fff;
+  padding: 40px;
+}
+
+.bn-parx-txt{
+  border: 1px solid blue;
+  padding: 40px 50px;
+}
+
+.bn-parx-txt h2{
+  font-weight: bold;
 }
 
 /*.............Property Insurance..........*/
@@ -1121,8 +1184,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*..............Car Insurance............*/
 
-/*Banner*/
-
 .car{
   width: 100%;
   height: 80vh;
@@ -1135,7 +1196,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .c-txt{
   color: #fff;
   text-align: center;
-  padding-top: 220px;
+  padding-top: 240px;
 }
 
 .c-txt h1{
@@ -1163,6 +1224,38 @@ body.mobile-nav-active #mobile-nav-toggle {
 .c-txt a:hover{
   background-color: #18d26e;
   cursor: pointer;
+}
+
+.cr-img-parx{
+  padding-right: 20px; 
+  background: url('../img/intro-carousel/accident.jpg');
+  background-position: left center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cr1-img-parx{
+  background: url('../img/intro-carousel/crack.jpg');
+  background-position: right center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cr-parx{
+  background-color: #494949;
+  color: #fff;
+  padding: 30px 40px;
+}
+
+.cr-parx-txt{
+  border: 1px solid blue;
+  padding: 100px 140px;
+}
+
+.cr-parx-txt h2{
+  font-weight: bold;
 }
 
 /*Intro*/
@@ -1305,8 +1398,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header #logo img {
-    margin-left: 20px !important;
+    margin-left: 12px !important;
   }
+
+  /*.carousel-control-prev, .carousel-control-next{
+    display: none;
+  }*/
 
   #intro h2 {
     font-size: 25px;
@@ -1327,6 +1424,25 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  /*...........Medical Insurance.........*/
+
+  .medical{
+    height: 70vh;
+  }
+
+  .med-parx{
+    padding: 0;
+  }
+
+  .img-parx{
+    display: none;
+  }
+
+  .med-parx-txt{
+    border: none;
+    padding: 10px 15px;
   }
 
   /*...........Life insurance........*/
@@ -1370,6 +1486,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 70vh;
   }
 
+  .bn-img-parx{
+    display: none;
+  }
+
+  .bn-parx{
+    padding: 0;
+  }
+
+  .bn-parx-txt{
+    border: none;
+    padding: 30px 25px;
+  }
+
+  .bn-parx-txt h2{
+    font-size: 25px;
+  }
+
   /*..........Property Insurance...........*/
   .property{
     height: 70vh;
@@ -1388,6 +1521,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   .c-text h5, .c-text p{
     text-align: center;
     width: 100%;
+  }
+
+  .cr-parx{
+    padding: 0;
+  }
+
+  .cr-parx-txt{
+    border: none;
+    padding: 40px 30px;
   }
 }
 
@@ -1423,17 +1565,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #mobile-nav-toggle {
     display: inline;
-    margin-right: 70px;
+    margin-right: 35px;
     margin-top: 20px;
     font-size: 30px;
   }
 
   #about .about-col{
-    height: 55vh;
+    height: 65vh;
   }
 
   .skills-content{
-    margin-top: 140px;
+    margin-top: 30px;
   }
 
   .box{
