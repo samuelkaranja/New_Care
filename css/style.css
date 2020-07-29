@@ -1106,7 +1106,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .med-parx-txt{
-  border: 1px solid blue;
+  border: 1px solid #309cea;
   padding: 10px 50px;
 }
 
@@ -1161,7 +1161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .bn-parx-txt{
-  border: 1px solid blue;
+  border: 1px solid #309cea;
   padding: 40px 50px;
 }
 
@@ -1251,10 +1251,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cr-parx-txt{
-  border: 1px solid blue;
+  border: 1px solid #309cea;
   padding: 100px 140px;
 }
-
+  
 .cr-parx-txt h2{
   font-weight: bold;
 }
@@ -1265,7 +1265,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  background-color:;
 }
 
 .c-intro h2{
