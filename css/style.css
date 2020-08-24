@@ -794,8 +794,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*max-width: 90%;*/
   transition: 0.3s;
   padding: 15px 10px;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
 }
 
 .partners .owl-nav,
