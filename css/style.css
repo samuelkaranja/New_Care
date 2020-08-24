@@ -292,8 +292,9 @@ h6 {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 32px;
-  border-radius: 50px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  /*border-radius: 50px;*/
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -301,8 +302,10 @@ h6 {
 }
 
 #intro .btn-get-started:hover {
-  background: #fff;
+  background: transparent;
+  border: 1px solid #18d26e;
   color: #18d26e;
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------
@@ -379,12 +382,12 @@ h6 {
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding: 0 8px 10px 8px;
+  padding: 0 15px 10px 8px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   outline: none;
@@ -783,46 +786,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Partners Section
 --------------------------------*/
 
-.pn{
-    padding-bottom: 70px;
-    padding-top: 50px;
-}
-
-.pn img{
-    width: 150px;
-    height:150px;
-}
-
-.pn .box{
-  margin: 15px 35px 0 0;
-}
-
-
-/* Clients Section
---------------------------------*/
-
-#clients {
+.partners {
   padding: 60px 0;
 }
 
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
+.partners img {
+  /*max-width: 90%;*/
   transition: 0.3s;
-  padding: 15px 0;
+  padding: 15px 10px;
+  width: 200px;
+  height: 200px;
 }
 
-#clients img:hover {
-  opacity: 1;
-}
-
-#clients .owl-nav,
-#clients .owl-dots {
+.partners .owl-nav,
+.partners .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-#clients .owl-dot {
+.partners .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -831,7 +813,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #ddd;
 }
 
-#clients .owl-dot.active {
+.partners .owl-dot.active {
   background-color: #18d26e;
 }
 
@@ -908,6 +890,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .owl-dot.active {
   background-color: #18d26e;
 }
+
 
 /* Contact Section
 --------------------------------*/
@@ -1202,7 +1185,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .c-txt h1{
   font-weight: bold;
-  font-size: 60px;
+  font-size: 45px;
   margin: 0;
 }
 

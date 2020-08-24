@@ -187,7 +187,7 @@
   });
 
   // Clients carousel (uses the Owl Carousel library)
-  $(".clients-carousel").owlCarousel({
+  $(".partners-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -205,3 +205,4 @@
 
 })(jQuery);
 
+// Partners
