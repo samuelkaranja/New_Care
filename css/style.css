@@ -41,6 +41,10 @@ h6 {
   padding: 0;
 }
 
+.row{
+  margin-right: 0 !important;
+}
+
 /* Back to top button */
 
 .back-to-top {
