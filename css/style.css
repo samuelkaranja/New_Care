@@ -6,7 +6,6 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
-  /*font-family: "Montserrat", sans-serif;*/
   margin: 0;
   padding: 0;
 }
@@ -43,6 +42,10 @@ h6 {
 
 .row{
   margin-right: 0 !important;
+}
+
+.md_6{
+  padding-right: 0!important;
 }
 
 /* Back to top button */
@@ -750,7 +753,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 60px;
 }
 
-
 #skills {
   padding: 60px 0;
 }
@@ -1189,7 +1191,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .c-txt h1{
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
   margin: 0;
 }
 
@@ -1376,7 +1378,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #header.header-scrolled{
-    height: 95px;
+    height: 80px;
+  }
+
+  #testimonials .testimonial-item p{
+    text-align: center;
   }
 
   #intro .carousel-item{
@@ -1388,9 +1394,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 12px !important;
   }
 
-  /*.carousel-control-prev, .carousel-control-next{
+  .carousel-control-prev, .carousel-control-next{
     display: none;
-  }*/
+  }
 
   #intro h2 {
     font-size: 25px;
@@ -1413,10 +1419,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-right: auto;
   }
 
+  #skills h1{
+    font-size: 33px;
+    font-weight: 500;
+  }
+
   /*...........Medical Insurance.........*/
 
   .medical{
     height: 70vh;
+    background-size: 260% 100%;
   }
 
   .med-parx{
@@ -1432,9 +1444,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 10px 15px;
   }
 
+  .c-txt p{
+    font-size: 20px;
+  }
+
+  .m-text h5{
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .m-text p{
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+  }
+
   /*...........Life insurance........*/
   .life{
     height: 70vh;
+    background-size: 160% 100%;
   }
 
   .c-txt{
@@ -1442,13 +1471,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .c-txt h1{
-    font-size: 35px;
+    font-size: 30px !important;
   }
 
   .card-img-top{
     width: 100%;
     height: 50vh;
     display: block;
+    margin-top: 10px !important;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1459,7 +1489,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   .l-text h5, .l-text p{
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
   }
 
   .row-reverse{
@@ -1471,6 +1501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*...........Business Insurance........*/
   .business{
     height: 70vh;
+    background-size: 170% 100%;
   }
 
   .bn-img-parx{
@@ -1493,16 +1524,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   /*..........Property Insurance...........*/
   .property{
     height: 70vh;
+    background-size: 230% 100%;
   }
 
   /*............Car Insurance...........*/
 
   .car{
     height: 70vh;
+    background-size: 230% 100%;
   }
 
   .c-text{
-    padding-top: 50px;
+    padding-top: 50px !important;
   }
 
   .c-text h5, .c-text p{
