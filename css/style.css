@@ -127,64 +127,46 @@ h6 {
 # Social Links
 --------------------------------------------------------------*/
 
-.social_links .logo{
-  width: 40px;
-  height: 40px;
+.social_links .ln_k{
+  text-align: right;
 }
 
-.social-ul{
-  list-style-type: none;
-  text-align: center;
-  margin-right: 36px;
+.social_links img{
+  width: 180px;
+  height: 60px;
+  margin: 15px 0;
 }
 
-.social-ul li{
-  text-align: center;
-  padding: 10px;
-}
-
-.social-ul li:hover{
-  text-decoration: underline;
-}
-
-.social-ul li a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-}
-
-.ft-li li{
+.social_links ul li{
   display: inline-block;
 }
 
-.ft-li .fa{
+.social_links ul li {
+  margin: 30px 10px 0 10px;
+}
+
+.social_links ul li i{
   color: #fff;
-  font-size: 18px;
-  border-radius: 100px;
-  padding: 5px;
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 13px;
 }
 
-.ft-li li{
-  width: 30px;
-  height: 30px;
-}
-
-.ft-li .fa-facebook{
+.social_links .fa-facebook{
   background-color: #3b5999;
 }
 
-.ft-li .fa-youtube-play{
+.social_links .fa-youtube-play{
   background-color: #e4405f;
 }
 
-.ft-li .fa-instagram{
+.social_links .fa-instagram{
   background-color: #e4405f;
 }
 
-.ft-li .fa-twitter{
+.social_links .fa-twitter{
   background-color: #55acee;
-}
+} 
 
 
 /*--------------------------------------------------------------
@@ -192,17 +174,18 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 25px 0;
-  height: 92px;
-  position: fixed;
+  padding: 5px 0;
+  height: 60px;
+  background: #18d26e;
   left: 0;
-  top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
 }
 
 #header.header-scrolled {
+  position: fixed;
+  top: 0;
   background: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
   height: 85px;
@@ -446,20 +429,22 @@ h6 {
 
 #nav-menu-container {
   float: right;
-  margin-right: 100px;
+  margin-right: 250px;
   margin-top: 15px;
 }
 
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding: 0 15px 10px 8px;
+  padding: 0 25px 10px 10px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0;
   text-transform: uppercase;
   outline: none;
 }
@@ -1115,7 +1100,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/med.jpg');
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 
@@ -1150,7 +1135,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/life-header.jpg');
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 
 }
@@ -1162,7 +1147,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/meet1.jpg');
   background-position: center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 
@@ -1206,7 +1191,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/happy.jpg');
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 
 }
@@ -1218,7 +1203,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 80vh;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/intro-carousel/car_insurance.jpg');
   background-position: center center;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 
@@ -1409,6 +1394,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 @media screen and (max-width: 425px){
+
+  .social_links .ln_k{
+    text-align: center;
+  }
+
+  .social_links img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+  }
+
+  .social_links ul li {
+    margin: 10px 10px 0 10px;
+  }
 
   #mobile-nav-toggle {
     display: inline;
