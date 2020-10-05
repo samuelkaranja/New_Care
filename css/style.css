@@ -1358,13 +1358,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*.............. Blog Page ..............*/
 
 .blog{
-  padding: 50px 0;
+  padding: 100px 0;
+  position: relative;
 }
 
 .blog #demo{
   text-align: center;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 80px;
+  padding-top: 250px;
+}
+
+.blog .card{
+  height: 65vh;
+  text-align: left;
+  box-shadow: none;
+}
+
+.blog .btn{
+  font-size: 14px;
+}
+
+.blog .card-img-top{
+  height: 40vh;
+}
+
+.timerr {
+    position:absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.9);
+    z-index:9999;
+    color:white;
 }
 
 /*--------------------------------------------------------------
@@ -1617,6 +1644,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   .cr-parx-txt{
     border: none;
     padding: 40px 30px;
+  }
+
+  /*............... Blog Page .............*/
+
+  .blog #demo{
+    font-size: 40px;
+    padding-top: 700px;
   }
 }
 
