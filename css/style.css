@@ -132,8 +132,8 @@ h6 {
 }
 
 .social_links img{
-  width: 180px;
-  height: 60px;
+  width: 190px;
+  height: 70px;
   margin: 15px 0;
 }
 
@@ -225,10 +225,10 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
-  /*display: table;
+  display: table;
   width: 100%;
   height: 100vh;
-  background: #000;*/
+  background: #000;
 }
 
 #intro .carousel-item {
@@ -436,7 +436,7 @@ h6 {
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding: 0 25px 10px 10px;
+  padding: 0 20px 10px 5px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -931,6 +931,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto 15px auto;
 }
 
+#testimonials .testimonial-item span{
+  font-style: italic;
+  font-weight: 700;
+}
+
 #testimonials .owl-nav,
 #testimonials .owl-dots {
   margin-top: 5px;
@@ -1350,6 +1355,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 80%;
 }
 
+/*.............. Blog Page ..............*/
+
+.blog{
+  padding: 50px 0;
+}
+
+.blog #demo{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1395,6 +1412,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media screen and (max-width: 425px){
 
+  .cn{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
   .social_links .ln_k{
     text-align: center;
   }
@@ -1437,6 +1459,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   .carousel-control-prev, .carousel-control-next{
     display: none;
   }
+
+  #intro {
+     height: 0; 
+     background: none; 
+  } 
 
   #intro h2 {
     font-size: 25px;
